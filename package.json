@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"  // Optional: For local development with live-reloading
+    "start": "node server.js",  // This is the start command Railway needs
+    "dev": "nodemon server.js"  // Optional: For local development
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1" // Make sure to include your dependencies
   }
 }
